@@ -1,0 +1,32 @@
+wavefront_obj_file in wiki...
+
+More than one white space.
+Faces index index_point/index_texture/index_normals
+v
+vt
+vn
+
+[goncalve@diamonds2 voxelGen]$ time ./voxelGen 32 data/GroundSurface.obj data/GroundSurface.voxels 
+The file contained 4981 vertexes and 4630 faces!!!
+real    0m15.536s
+
+[goncalve@diamonds2 voxelGen]$ time ./voxelGen 96 data/GroundSurface.obj data/GroundSurface.voxels 
+The file contained 4981 vertexes and 4630 faces!!!
+real    0m6.567s
+
+[goncalve@diamonds2 voxelGen]$ time ./voxelGen 32 data/RoofSurface.obj data/RoofSurface.voxels 
+The file contained 13274 vertexes and 9535 faces!!!
+real    7m4.051s
+
+[goncalve@diamonds2 voxelGen]$ time ./voxelGen 96 data/RoofSurface.obj data/RoofSurface.voxels 
+The file contained 13274 vertexes and 9535 faces!!!
+real    4m11.736s
+
+[goncalve@diamonds2 voxelGen]$ time ./voxelGen 32 data/WallSurface.obj data/WallSurface.voxels 
+The file contained 20728 vertexes and 18577 faces!!!
+real    13m32.547s
+
+[goncalve@diamonds2 voxelGen]$ time ./voxelGen 96 data/WallSurface.obj data/WallSurface.voxels 
+The file contained 20728 vertexes and 18577 faces!!!
+real    8m25.494s
+
