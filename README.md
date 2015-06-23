@@ -1,7 +1,10 @@
 # geospatial-voxels
-geospatial-voxels is a repository for doscumenting our voxelization algorithms for point clouds, curves and surfaces. 
+geospatial-voxels is a repository for documenting our voxelization algorithms for point clouds, curves and surfaces. 
+
 The algorithms for voxelization of curves and surfaces are based on the topological voxelization approach of Samuli Laine. 
-Algorithms implemented by Pirouz Nourian, researcher @ TU Delft, Urbansim, 3D Geoinofrmation research group. 
-C++ and C versions have been implemnted by Ken Arroyo Ahori (researcher @ TU Delft, Urbansim, 3D Geoinofrmation research group)
-and Romulo Goncalves (E Science researcher @ Nethelrands eScience Centre Amsterdam NLeSC). 
-The software provided with the Apache 2.0 License, which implies...
+
+The algorithms were designed by Pirouz Nourian, researcher @ TU Delft, Urbanism and 3D Geo-information research group. 
+The C++ and C versions have been conceived by Ken Arroyo Ahori (researcher @ TU Delft, Urbanism, 3D Geo-information research group) and Romulo Goncalves (eScience researcher @ Netherlands eScience Centre Amsterdam NLeSC). 
+
+The software provided under the Apache 2.0 License, for more information read the document LICENSE.
+
