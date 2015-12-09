@@ -24,7 +24,7 @@ int main(int argc, char * argv[]) {
     int co = 26;
 
     if (argc != 5) {
-        fprintf(stderr, "Number of arguments is incorrect. ./read_obj <with_split_mesh: 0 | 1> <num_threads> <input_file_absolute_path> <output_file_absolute_path>\n");
+        fprintf(stderr, "voxelGen has the following arguments:\n./voxelGen <with_split_mesh: 0 | 1> <num_threads> <input_file_absolute_path> <output_file_absolute_path>\n");
         return -1;
     }
     if (readObj(argv[3], &vertices, &nVertices, &mesh, &nTriangles))

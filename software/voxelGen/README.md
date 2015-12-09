@@ -1,11 +1,27 @@
-#Optimized
-cc -O3 -fopenmp -c voxelize.c readObj.c
-g++ -O3 -c splitMesh.cpp voxelGen.cpp
-cc -O3 voxelize.o readObj.o splitMesh.o voxelGen.o -fopenmp -lm -lstdc++ -o voxelGen
+Compilation and Installation instructions:
+=========================================
 
-#debug
-#cc -g -fopenmp -c voxelize.c readObj.c
-#g++ -g -c splitMesh.cpp voxelGen.cpp
-#cc -g voxelize.o readObj.o splitMesh.o voxelGen.o -fopenmp -lm -lstdc++ -o voxelGen
+Debug mode:
+------------------
+```
+make debug
+```
 
-rm voxelize.o readObj.o splitMesh.o voxelGen.o
+Optimized mode:
+----------------------
+```
+make optimized
+```
+
+Clean:
+------
+```
+make clean
+```
+
+Execution:
+----------
+```
+./voxelGen <with_split_mesh: 0 | 1> <num_threads> <input_file_absolute_path> <output_file_absolute_path>
+
+```
