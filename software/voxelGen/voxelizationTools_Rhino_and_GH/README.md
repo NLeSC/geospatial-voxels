@@ -12,12 +12,12 @@ Instructions:
 -------------
 
 To use the tools do the following steps:
-* Open the .3dm file in Rhino
-* In Rhino, type in the command line "Grasshopper"
-* In Grasshopper, open the file with the .gh suffix. 
-** Note: There are VB.NET and C# implementations of the algorithms inside this GH file. Plus several utility functions also written in C# & VB components. 
-* To see the source code of components (only the ones which are programmed) double click on them. 
-* You can change the code and connect a panel to their outputs for debugging messages. 
+# Open the .3dm file in Rhino
+# In Rhino, type in the command line "Grasshopper"
+# In Grasshopper, open the file with the .gh suffix. 
+    ** Note: There are VB.NET and C# implementations of the algorithms inside this GH file. Plus several utility functions also written in C# & VB components. 
+# To see the source code of components (only the ones which are programmed) double click on them. 
+# You can change the code and connect a panel to their outputs for debugging messages. 
    
 For more detailed instructions in how to use Grasshopper we recommend a visit to its [web-page](http://www.grasshopper3d.com/).
 
